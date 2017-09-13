@@ -1,0 +1,110 @@
+
+h1 {
+     font-size: 24px;
+}
+
+th:hover {
+    cursor: pointer;
+}
+
+.paddingLink {
+    width: 10%;
+}
+
+#previousLink, #nextLink {
+    width: 40%;
+    color:darkblue;
+}
+
+#previousLink:hover, #nextLink:hover {
+    color:lightblue;
+    cursor: pointer;
+}
+
+#previousLink {
+    text-align:left;
+}
+
+#nextLink {
+    text-align:right;
+}
+
+.smallTd {
+    width:10%;
+}
+
+.notavailable {
+    background-color: blueviolet;
+}
+
+.searchBox {
+    width:90%;
+    height: 36px;
+    margin:10px 10px 0 0;
+    padding: 0;
+    float:left;
+}
+
+.input-group-btn {
+    padding-top:11px;
+}
+
+.btnImg {
+    background: url("../assets/images/thumbSmartphone.jpg") no-repeat;
+    height: 64px;
+    width:33px;
+    padding: 0 0 0 0;
+    border: none;
+}
+
+ .modalText {
+    font-size: 24px;
+  }
+
+  .featuresText {
+      color: darkblue;
+  
+  }
+
+
+  /* .................. CSS for mobile view **************************** */
+
+  .no-bullets {
+      list-style-type: none;
+  }
+
+  .marketing {
+      background-color:#4298f4;
+  }
+
+  .container {
+      padding-left: 0 !important;
+      padding-right: 0!important;
+  }
+
+  .card {
+      background-color: #636c72;
+      background-image: url("../assets/images/thumbSmartphone.jpg");
+      background-position-x: 50%;
+      background-position-y: 50%;
+      background-repeat: no-repeat;
+      width: 32%;
+      margin-left:2px;
+      margin-right: 2px;
+      min-height: 178px;
+  }
+
+  .card > h3 {
+      color:whitesmoke;
+      text-align: center;
+  }
+
+  .row, .navbar-header {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+  }
+
+  h1 {
+      margin-top:0px;
+  }
+  
